@@ -1,0 +1,54 @@
+body{
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+    text-align: center;
+
+}
+
+#testimonials{
+    img{
+        max-width: 4rem;
+        max-height: 4rem;
+        border-radius: 4rem;
+        margin-bottom: 2rem;
+    }
+}
+
+//colors
+
+.navy{
+    background-color:$navy;
+}
+
+.olive{
+    background-color:$olive;
+}
+
+.beige{
+    background-color:$beige;
+}
+
+.sand{
+    background-color:$sand;
+}
+
+.offwhite{
+    background-color:$offwhite;
+}
+
+.pattern{
+    background-image: url(/images/mtpattern.png);
+    background-size: cover;
+}
