@@ -52,3 +52,40 @@ h1{
     background-image: url(/images/mtpattern.png);
     background-size: cover;
 }
+
+
+ul{
+    list-style: none;
+
+    p{
+        text-align: center;
+    }
+}
+
+
+.header{
+    font-family:$header;
+    font-size: 1rem;
+}
+
+.main{
+    font-family:'Brown Sugar', sans-serif;
+    font-size: 2rem;
+    color: $offwhite;
+}
+
+
+
+.bodytext{
+    font-family: 'Biryani', sans-serif;
+    font-size: 1rem;
+}
+
+
+header ul a:hover{
+    color: $navy;
+}
+
+.active{
+    color: $navy;
+}
