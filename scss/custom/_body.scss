@@ -70,7 +70,7 @@ ul{
 
 .main{
     font-family:'Brown Sugar', sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
     color: $offwhite;
 }
 
@@ -88,4 +88,20 @@ header ul a:hover{
 
 .active{
     color: $navy;
+}
+
+
+.icons {
+
+    h2{
+        font-size: 2rem;
+        margin: 20px 0px;
+    }
+
+    p{
+        font-family: $bodytext;
+        color: $navy;
+        font-size: .8rem;
+        margin-top: 10px;
+    }
 }
