@@ -141,16 +141,22 @@ font-size: .7rem;
 
 
 .grape h1{
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: $offwhite;
-    z-index: 1;
-    position: absolute;
+    margin: 3.5rem;
+
 }
 
-.grape img{
-    position: relative;
+.grape{
+    background-image: url(../images/arugalasalad.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
 }
+
+
 
 
 .scal p{
@@ -166,3 +172,81 @@ a:hover{
   opacity: 85%;
   color: inherit;
 }
+
+.mealinfo{
+    h2{
+    font-size: 1.5rem;
+    color: $olive;
+    }
+    p{
+        font-size: 1rem;
+        margin-top: .5rem;
+        color: $navy;
+    }
+}
+
+.wyn{
+    h3{
+        font-size: 1.5rem;
+        
+    }
+    p{
+        line-height: 1.5rem;
+        text-align: left;
+        color: $navy;
+    }
+    h4{
+        margin-bottom: 20px;
+        color: $olive;
+    }
+}
+
+.instructions{
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        line-height: 2rem;
+        text-align: left;
+        color: $navy;
+        font-size: 1rem;
+    }
+    strong{
+        font: italic;
+    }
+}
+
+.globe{
+    h3{
+        font-size: 1.5rem;
+        
+        color: $olive;
+    }
+    p{
+        line-height: 2rem;
+        text-align: left;
+        color: $navy;
+    }
+    strong{
+        font: italic;
+    }
+    li{
+        margin-bottom: 20px;
+    }
+}
+
+.recipes{
+    h1{
+        color: $offwhite;
+        font-family: $header;
+        font-weight: 300;
+    }
+}
+
+.featuredrecipes{
+    h2{
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+}
+
